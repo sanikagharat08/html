@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>reverse order</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var input;
+			var rev=0;
+			
+			input=window.prompt ("please enter a 5-digit number to be reversed.");
+			
+			input = input*1;
+			
+			while (input>0)
+			{
+				rev*=10;
+				rev+=input%10;
+				input/=10;
+			}
+			document.write("reversed number: " + rev);
+		</script>
+	</body>
+</html>

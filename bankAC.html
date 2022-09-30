@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<script>
+			function
+			var choice=parseInt(document.getElementById("choice")).value
+			switch(choice)
+			{
+				case 1:
+					Create Account();
+				break;
+				case 2:
+					Deposit();
+				break;
+				case 3:
+					Withdraw();
+				break;
+				case 4:
+					Show Balance();
+				break;
+				default:
+					document.write("invalid choice");
+			}
+			var init_deposit=0
+			var accountNo
+			
+			function Create Account()
+			{
+				var name,pan,random1,temp,acc_no;
+				name=prompt("Enter Your Full Name: ")
+				init deposit =parseInt(prompt("Enter your enitial deposit"))
+				pan==prompt("Enter Your Pan Number: ")
+				document.getElementById("result").innerHTML +=Your name :"+name+"<br/>"
+				document.getElementById("result").innerHTML +=Your init deposit :"init_deposit+"<br/>"
+				document.getElementById("result").innerHTML +=Your pan card nos :"+pan+"<br/>"
+				temp=math.floor(Math.random()*0123456789)
+				ac_no=document.getElementById("result").innerHTML +=Your new account number is :"+temp+"<br/>"
+				random1= math.round(math.random()*0123)
+				pin= document.getElementById("tesult").innerHTML+="Your new account number is :"+temp+"<br/>"
+				document.getElementById("tesult").innerHTML+="Thank you for creating an Account"+name+"<br/>"
+			}
+			function Deposit()
+			{
+				var acc_no,pin,deposit;
+				acc_no=parseInt(prompt("Enter your Account number:"))
+				
+				if(accountno)
+			}
+			function Withdraw()
+			{
+				
+			}
+			function Show Balance()
+			{
+				
+			}
+		</script>
+	</head>
+	<body>
+		<ol type="1">
+			<li>Create Account</li>
+			<li>Deposit</li>
+			<li>Withdraw</li>
+			<li>Show balance</li>
+		</ol>
+		<form>
+			<label>Enter Number</label>
+			<input type="text" onclick="acc()"><br>
+			
+			<input type="button" value="button" onclick="button()">
+		</form>
+	</body>
+</html>
